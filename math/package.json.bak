@@ -1,0 +1,23 @@
+{
+  "name": "math-module-nnguyen242-1",
+  "version": "1.0.0",
+  "description": "Math functions",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nghinguyen157/AIA-Nodejs-Practices.git"
+  },
+  "keywords": [
+    "math-module-nnguyen242-1"
+  ],
+  "author": "nnguyen242",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nghinguyen157/AIA-Nodejs-Practices/issues"
+  },
+  "homepage": "https://github.com/nghinguyen157/AIA-Nodejs-Practices#readme"
+}
