@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-practices-aia",
+  "version": "1.0.0",
+  "description": "Nodejs-practices-AIA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nghinguyen157/Nodejs-practices-AIA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nghinguyen157/Nodejs-practices-AIA/issues"
+  },
+  "homepage": "https://github.com/nghinguyen157/Nodejs-practices-AIA#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "read-excel-file": "^5.5.0"
+  }
+}
