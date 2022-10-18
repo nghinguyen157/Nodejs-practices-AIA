@@ -14,7 +14,12 @@ return await User.findById(id);
 };
 
 exports.updateUser = async (id, user) => {
-return await User.findByIdAndUpdate(id, user);
+  console.log(user)
+  let res = await User.findByIdAndUpdate(id, user, {
+    returnOriginal: false
+  }); // check
+  console.log(res);
+  return res;
 };
 
 exports.deleteUser = async (id) => {

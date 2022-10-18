@@ -6,8 +6,8 @@ const mongoose = require('mongoose');
 const mongoString = process.env.DATABASE_URL;
 const logger = require('morgan');
 
-mongoose.connect(mongoString);
 const database = mongoose.connection;
+mongoose.connect(mongoString, { useNewUrlParser: true }).then(() => console.log('DB Connected!'));
 
 database.on('error', (error) => {
     console.log(error)
